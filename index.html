@@ -73,6 +73,9 @@
     <div id="hello">Hello</div>
     <div id="date"></div>
     <div id="milliseconds"></div>
+
+
+    
     <script>
       function showSelectedCountry(event) {
         if (event.target.value.length > 0) {
@@ -116,7 +119,6 @@
         date.innerHTML = new Date();
         console.log();
       }
-
       setTimeout(sayHello, 3000);
       setInterval(displayDate, 1000);
       function displayMillisecond() {
@@ -125,7 +127,6 @@
         millisecomds.innerHTML = date.getMilliseconds();
       }
       setInterval(displayMillisecond, 100);
-
       //   console.log(date.getMilliseconds());
     </script>
   </body>
